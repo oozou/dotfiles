@@ -17,6 +17,8 @@ alias -g ONE="| awk '{ print \$1}'"
 # git
 alias g="git"
 alias gci="git pull --rebase && rake && git push"
+alias gs="git status"
+alias gco="git checkout
 
 # Bundler
 alias b="bundle"
@@ -59,3 +61,24 @@ alias db-backup-production='heroku pgbackups:capture --remote production'
 
 # Network
 alias whats-my-ip="curl -s checkip.dyndns.org | grep -Eo '[0-9\.]+'"
+
+# Sunspot
+alias spot='rake sunspot:solr:run'
+alias spottest='rake sunspot:solr:run RAILS_ENV=test'
+
+# Project
+alias ss='cd ~/dev/smartsupport'
+alias at='cd ~/dev/addresstalk'
+alias xe='cd ~/dev/xenapto'
+alias ws='cd ~/dev/whostays'
+alias db='cd ~/dev/dashboard'
+
+# Compass
+alias cc='compass compile -f'
+
+# Pow
+alias powr='touch tmp/restart.txt'
+
+# Vim
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+
