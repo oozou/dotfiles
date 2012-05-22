@@ -19,3 +19,8 @@ setopt prompt_subst
 # prompt
 export PS1='$(git_prompt_info)[${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%~%{$reset_color%}] '
 
+# RVM
+[[ -s '/Users/jan/.rvm/scripts/rvm' ]] && source '/Users/jan/.rvm/scripts/rvm'
+
+# recommended by brew doctor
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
