@@ -18,7 +18,7 @@ alias -g ONE="| awk '{ print \$1}'"
 alias g="git"
 alias gci="git pull --rebase && rake && git push"
 alias gs="git status"
-alias gco="git checkout
+alias gco="git checkout"
 
 # Bundler
 alias b="bundle"
